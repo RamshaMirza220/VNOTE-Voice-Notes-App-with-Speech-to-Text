@@ -1,16 +1,28 @@
-# vnotes
+# 🗣️ VNOTE – Voice Notes App with Speech-to-Text  
 
-A new Flutter project.
+A modern Flutter app that allows users to **record, convert, and manage voice notes using Speech-to-Text technology**.  
+Designed with a clean UI, efficient state management, and platform support for Android, iOS, and web.  
 
-## Getting Started
+🚀 Features  
 
-This project is a starting point for a Flutter application.
+| Feature | Description |
+|----------|--------------|
+| 🎤 **Speech to Text** | Convert your voice notes into editable text using real-time speech recognition. |
+| 📝 **Save Notes** | Save, view, and edit notes within the app. |
+| 🔍 **Search Functionality** | Quickly find saved notes using keywords. |
+| 💾 **Local Storage** | Notes are securely stored locally on your device. |
+| 🌗 **Dark & Light Themes** | Toggle between dark and light mode for better accessibility. |
+| 📱 **Cross-Platform Support** | Works on Android, iOS, Web, Windows, macOS, and Linux. |
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ 🛠️ Technologies Used  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter (Dart)** – cross-platform framework  
+- **Speech-to-Text API** – for real-time voice recognition  
+- **Hive / Shared Preferences** – for local data storage  
+- **Provider / Riverpod** – state management (if used)  
+
+---
+
+## 🧩 Project Structure  
+
