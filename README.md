@@ -29,7 +29,7 @@ Designed with a clean UI, efficient state management, and platform support for A
 
 ## 🧩 Project Structure  
 
-vnote/
+``` vnote/
 │
 ├── lib/ # Main Flutter code (UI, logic, views)
 │ ├── main.dart # Entry point of the app
