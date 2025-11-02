@@ -41,16 +41,8 @@ Designed with a clean UI, efficient state management, and platform support for A
 ├── android/ # Android-specific files
 ├── ios/ # iOS-specific setup
 ├── web/ # Web build files
-└── pubspec.yaml # Dependencies & metadata```
+└── pubspec.yaml # Dependencies & metadata
+```
 
 
-
----
-
-## ▶️ Getting Started  
-
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/RamshaMirza220/VNOTE-Voice-Notes-App-with-Speech-to-Text.git
-   cd VNOTE-Voice-Notes-App-with-Speech-to-Text
 
