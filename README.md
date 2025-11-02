@@ -3,7 +3,9 @@
 A modern Flutter app that allows users to **record, convert, and manage voice notes using Speech-to-Text technology**.  
 Designed with a clean UI, efficient state management, and platform support for Android, iOS, and web.  
 
-🚀 Features  
+---
+
+## 🚀 Features  
 
 | Feature | Description |
 |----------|--------------|
@@ -14,8 +16,9 @@ Designed with a clean UI, efficient state management, and platform support for A
 | 🌗 **Dark & Light Themes** | Toggle between dark and light mode for better accessibility. |
 | 📱 **Cross-Platform Support** | Works on Android, iOS, Web, Windows, macOS, and Linux. |
 
+---
 
- 🛠️ Technologies Used  
+## 🛠️ Technologies Used  
 
 - **Flutter (Dart)** – cross-platform framework  
 - **Speech-to-Text API** – for real-time voice recognition  
@@ -26,3 +29,16 @@ Designed with a clean UI, efficient state management, and platform support for A
 
 ## 🧩 Project Structure  
 
+vnote/
+│
+├── lib/ # Main Flutter code (UI, logic, views)
+│ ├── main.dart # Entry point of the app
+│ ├── screens/ # App screens (home, note detail, etc.)
+│ ├── widgets/ # Reusable UI components
+│ └── services/ # Speech recognition & storage logic
+│
+├── assets/ # Icons, images, fonts
+├── android/ # Android-specific files
+├── ios/ # iOS-specific setup
+├── web/ # Web build files
+└── pubspec.yaml # Dependencies & metadata
