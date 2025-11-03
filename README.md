@@ -30,24 +30,20 @@ Designed with a clean UI, efficient state management, and platform support for A
 ## 🧩 Project Structure  
 
 ``` vnote/
-│
-├── lib/ # Main Flutter code (UI, logic, views)
-│ ├── main.dart # Entry point of the app
-│ ├── screens/ # App screens (home screen , splash screen)
-│ ├── widgets/ # Reusable UI components(listening widgets, note card)
-│ └── services/ (storage service)
-│ └── providers # theme provider
-│ └── models # voice note model
-│
-├── linux
-├── test
-├── windows
-├── .metadata
-├── macos
-├── android/ # Android-specific files
-├── ios/ # iOS-specific setup
-├── web/ # Web build files
-└── pubspec.yaml # Dependencies & metadata
+lib/
+├── main.dart                      # App entry point & theme setup
+├── models/
+│   └── voice_note.dart           # VoiceNote data model
+├── services/
+│   └── storage_service.dart      # Local storage operations
+├── providers/
+│   └── theme_provider.dart       # Theme state management
+├── screens/
+│   ├── splash_screen.dart        # Animated splash screen
+│   └── home_screen.dart          # Main notes screen
+└── widgets/
+    ├── note_card.dart            # Individual note display
+    └── listening_widget.dart     # Recording indicator UI
 ```
 
 
