@@ -33,11 +33,17 @@ Designed with a clean UI, efficient state management, and platform support for A
 │
 ├── lib/ # Main Flutter code (UI, logic, views)
 │ ├── main.dart # Entry point of the app
-│ ├── screens/ # App screens (home, note detail, etc.)
-│ ├── widgets/ # Reusable UI components
-│ └── services/ # Speech recognition & storage logic
+│ ├── screens/ # App screens (home screen , splash screen)
+│ ├── widgets/ # Reusable UI components(listening widgets, note card)
+│ └── services/ (storage service)
+│ └── providers # theme provider
+│ └── models # voice note model
 │
-├── assets/ # Icons, images, fonts
+├── linux
+├── test
+├── windows
+├── .metadata
+├── macos
 ├── android/ # Android-specific files
 ├── ios/ # iOS-specific setup
 ├── web/ # Web build files
